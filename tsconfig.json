@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2016",           
+    "module": "CommonJS",  
+    "baseUrl": "./",        
+    "paths": {
+      "@server":["models/Server.ts"],
+      "@routes/*":["routes/*"]
+    },
+    "esModuleInterop": true,       
+    "strict": true,                
+    "skipLibCheck": true          
+  }
+}
